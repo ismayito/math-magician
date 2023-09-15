@@ -37,3 +37,11 @@
   width: 160px;
   height: 40px;
 }
+
+.quotes-container {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
