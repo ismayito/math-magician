@@ -5,16 +5,19 @@ import calculate from '../logic/calculate';
 import ButtonsZeroComponent from './ButtonsZeroComponent';
 
 function Calculator() {
-  const [screenDisplay, setScreenDisplay] = useState({ tota: 0, next: null, operation: null });
+  const [screenDisplay, setScreenDisplay] = useState({ total: 0, next: null, operation: null });
   const handleOnClick = (value) => {
     setScreenDisplay((prevScreenDisplay) => calculate(prevScreenDisplay, value));
     calculate(value, value);
   };
+  const { total, next, operation } = screenDisplay;
 
   return (
     <div className="calculator-container">
       <div className="screen">
-        {screenDisplay}
+        <span>{total}</span>
+        <span>{next}</span>
+        <span>{operation}</span>
       </div>
       <ButtonsComponent num1="AC" num2="+/-" num3="%" num4="÷" onShow={handleOnClick} />
       <ButtonsComponent num1="7" num2="8" num3="9" num4="x" onShow={handleOnClick} />
