@@ -3,7 +3,6 @@ import './Calculator.css';
 import ButtonsComponent from './ButtonsComponent';
 import calculate from '../logic/calculate';
 import ButtonsZeroComponent from './ButtonsZeroComponent';
-import FetchData from './FetchData';
 
 function Calculator() {
   const [screenDisplay, setScreenDisplay] = useState({ total: 0, next: null, operation: null });
@@ -27,7 +26,6 @@ function Calculator() {
         <ButtonsComponent num1="1" num2="2" num3="3" num4="+" onShow={handleOnClick} />
         <ButtonsZeroComponent num1="0" num2="." num3="=" onShow={handleOnClick} />
       </div>
-      <FetchData />
     </>
   );
 }
