@@ -18,9 +18,9 @@ Just a simple webpack template for my projects
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Pokemon Gallaery] <a name="about-project"></a>
+# 📖 [math-magician] <a name="about-project"></a>
 
-**[Pokemon Gallery]** is a  Javascript capstone group project which makes use of Javascript to hit the API, it displays a list of Pokemon data to the user and it has been designed to have a eye catching interface. In this project the user is able to like the pokemon and also add a comment to the pokemon.
+**[math-magician]** is a React Javascript website project which makes use of  react Javascript to hit the API, it displays a list of random quotes fetched from the API to the user and it has been designed to have a eye catching interface. In this project I have also added the pages and the use can route to those pages .
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,8 +39,6 @@ Just a simple webpack template for my projects
 ### Key Features <a name="key-features"></a>
 
 - **[The calculator UI ]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,4 +111,4 @@ I would like to thank the microverse staff for doing their best to equip us with
 
 This project is [MIT](./MIT.md) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>+-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
