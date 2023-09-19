@@ -4,7 +4,7 @@ import ButtonsComponent from './ButtonsComponent';
 import calculate from '../logic/calculate';
 import ButtonsZeroComponent from './ButtonsZeroComponent';
 
-function Calculator() {
+function CalculatorComponent() {
   const [screenDisplay, setScreenDisplay] = useState({ total: 0, next: null, operation: null });
   const handleOnClick = (value) => {
     setScreenDisplay((prevScreenDisplay) => calculate(prevScreenDisplay, value));
@@ -17,8 +17,8 @@ function Calculator() {
       <div className="calculator-container">
         <div className="screen">
           <span>{total}</span>
-          <span>{next}</span>
           <span>{operation}</span>
+          <span>{next}</span>
         </div>
         <ButtonsComponent num1="AC" num2="+/-" num3="%" num4="÷" onShow={handleOnClick} />
         <ButtonsComponent num1="7" num2="8" num3="9" num4="x" onShow={handleOnClick} />
@@ -30,4 +30,4 @@ function Calculator() {
   );
 }
 
-export default Calculator;
+export default CalculatorComponent;
