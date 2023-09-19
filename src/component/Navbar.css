@@ -1,0 +1,17 @@
+.linksWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.separator {
+  border-right: 2px solid #000;
+  margin-right: 4px;
+  padding-right: 4px;
+}
+
+.links {
+  padding: 4px 0;
+}
