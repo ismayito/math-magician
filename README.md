@@ -84,7 +84,6 @@ git clone https://github.com/ismayito/math-magician.git
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[More CSS styling]**
-- [ ] **[More Pages]**
 - [ ] **[A proper design layout]**
 - [ ] **[Responsiveness to make it accessible on mobile screens]**
 
