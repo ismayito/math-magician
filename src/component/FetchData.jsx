@@ -26,7 +26,7 @@ function FetchData() {
   }, [setData, setIsLoading]);
 
   if (isLoading) return <div><h1>Loading...</h1></div>;
-  if (hasError) return <div><h1>Sorry error occurred while fetching data</h1></div>;
+  if (hasError) return <div><h1>Sorry error occured while fetching data</h1></div>;
   return (
     <div className="quotes-container">
       {data.map((item) => (
