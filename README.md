@@ -42,6 +42,10 @@ Just a simple webpack template for my projects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<a href="https://math-magician-azqg.onrender.com/"> See Project 🚀</a>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
